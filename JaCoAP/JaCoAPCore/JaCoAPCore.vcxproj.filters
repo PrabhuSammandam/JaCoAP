@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\port">
+      <UniqueIdentifier>{994c4d77-9721-4445-90d1-02e83ee24e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{fa3fe4f3-d2f4-4885-8ad5-9b0ad1a8a15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\resources">
+      <UniqueIdentifier>{2975c37c-cc42-4590-ab05-1c014ae317fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\transactions">
+      <UniqueIdentifier>{7b988a79-a0b3-4a4c-9891-2f4abea72814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\utils">
+      <UniqueIdentifier>{27800633-3a41-4f91-97f4-4409c0067da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\network">
+      <UniqueIdentifier>{ee4fd6db-7f88-4a88-bcdb-beecf4d567f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\msg">
+      <UniqueIdentifier>{2e71e2ca-7998-4a14-b02a-f9c0e374781f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{bc52f63d-0b98-465e-83ec-1cbefc0b8948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\transactions">
+      <UniqueIdentifier>{1189d00a-37c0-4403-b555-c3efe6e96cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\msg">
+      <UniqueIdentifier>{e336c7c1-3cc0-4f5a-a53e-304ecdb4c191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network">
+      <UniqueIdentifier>{a911b783-1c57-4f7d-9745-da69b4cc237b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resources">
+      <UniqueIdentifier>{e0261935-20cf-459d-83f9-40fb2cde76fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{3180ff49-2e0b-42c8-8041-508f17644dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\port">
+      <UniqueIdentifier>{1682ba89-51e2-40be-a366-3a22d7e6b6aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\inc\ReqResHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\CoapServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ByteArray.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\PLBuffer.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\PLBufPool.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Utils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ErrorCodes.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\IpAddress.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\IpSocketAddr.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Transaction.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\TransList.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\TransMgr.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\TransProcessor.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\TransStore.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Msg.h">
+      <Filter>Header Files\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\MsgCodec.h">
+      <Filter>Header Files\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\MsgPool.h">
+      <Filter>Header Files\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Option.h">
+      <Filter>Header Files\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\DataChannel.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\BaseStackLayer.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\CoapStack.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ReliabilityLayer.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\StackLayer.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Deduplicator.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\MsgIdProvider.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\SimpleCounterMsgIdProvider.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\SimpleTokenProvider.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ResourceHandler.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ResourceMgr.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\IResource.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\TokenProvider.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\WellKnownResource.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Packet.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Outbox.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ja_coap_if.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="code\port\ja_types.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\NetIOMgr.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\CoapMgr.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\StackBotLayer.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\StackTopLayer.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Inbox.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\src\InboxImpl.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="code\src\OutboxImpl.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\OptionsSet.h">
+      <Filter>Header Files\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\BlockOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\BlockTransferLayer.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Block2Info.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\MsgDeliverer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ServerMsgDeliverer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\ServerTrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\port\JaCoapIF.h">
+      <Filter>Header Files\port</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\SimpleAllocator.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="code\inc\JaCoapConfig.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\src\NetIOMgr.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\ResourceMgr.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\SimpleCounterMsgIdProvider.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\SimpleTokenProvider.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Deduplicator.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Transaction.cpp">
+      <Filter>Source Files\src\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\TransProcessor.cpp">
+      <Filter>Source Files\src\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\TransStore.cpp">
+      <Filter>Source Files\src\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Utils.cpp">
+      <Filter>Source Files\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\ByteArray.cpp">
+      <Filter>Source Files\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\IpAddress.cpp">
+      <Filter>Source Files\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\CoapStack.cpp">
+      <Filter>Source Files\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\ReliabilityLayer.cpp">
+      <Filter>Source Files\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Option.cpp">
+      <Filter>Source Files\src\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Packet.cpp">
+      <Filter>Source Files\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\MsgCodec.cpp">
+      <Filter>Source Files\src\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Msg.cpp">
+      <Filter>Source Files\src\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\IpSocketAddr.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\CoapServer.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\CoapMgr.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\InboxImpl.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\OutboxImpl.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\OptionsSet.cpp">
+      <Filter>Source Files\src\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\BlockTransferLayer.cpp">
+      <Filter>Source Files\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Block2Info.cpp">
+      <Filter>Source Files\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\BlockOption.cpp">
+      <Filter>Source Files\src\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\ServerMsgDeliverer.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Resource.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\port\JaCoapIF.cpp">
+      <Filter>Source Files\port</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\MemMgr.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\Exchange.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\WellKnownRes.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+#pragma once
+
+#include <cstdint>
+
+constexpr uint16_t JA_COAP_CONFIG_URI_PATH_MAX_SIZE = 256;
+
+constexpr uint16_t JA_COAP_CONFIG_MAX_EP = 3;
+constexpr uint16_t JA_COAP_CONFIG_MAX_OUT_PACKET_SIZE = 1024;
+
+constexpr uint16_t JA_COAP_CONFIG_TRANS_HASH_LIST_MAX_SIZE = 40;
+
+constexpr uint16_t JA_COAP_CONFIG_MAX_TRANSACTIONS = 5;
+
+constexpr uint16_t JA_COAP_CONFIG_MSGS_PER_TRANSACTION = 4;
+constexpr uint16_t JA_COAP_CONFIG_MAX_MSGS = JA_COAP_CONFIG_MAX_TRANSACTIONS * JA_COAP_CONFIG_MSGS_PER_TRANSACTION;
+
+constexpr uint16_t JA_COAP_CONFIG_MAX_PAYLOAD_SIZE = 256;
+constexpr uint16_t JA_COAP_CONFIG_MAX_OPTION_SIZE = (1034);
+

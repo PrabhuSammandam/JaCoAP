@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/CPATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.mingw.lib.debug.905278813/appendContributed=true
+environment/buildEnvironmentInclude/gcov/CPATH/delimiter=;
+environment/buildEnvironmentInclude/gcov/CPATH/operation=remove
+environment/buildEnvironmentInclude/gcov/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/gcov/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/gcov/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/gcov/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/gcov/append=true
+environment/buildEnvironmentInclude/gcov/appendContributed=true
